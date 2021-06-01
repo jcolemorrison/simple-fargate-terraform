@@ -1,0 +1,3 @@
+## Simple Terraform Deployment of an ECS Fargate Service
+
+Example of a simple deployment to AWS [ECS](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html) Fargate using [Terraform](https://www.terraform.io/).  This project deploys an [nginx](https://hub.docker.com/_/nginx) container behind an AWS [application load balancer](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html) into the default AWS VPC.  Also hooked up to [Cloudwatch Logs](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/WhatIsCloudWatchLogs.html) for simple monitoring.
