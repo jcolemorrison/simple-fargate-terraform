@@ -7,7 +7,7 @@ terraform {
   }
 }
 
-# Configure the AWS Provider
+# Configure the AWS Provider - assumes you have a profile ready or the credentials exported via environment variables
 provider "aws" {
   region = "us-east-1"
 }
